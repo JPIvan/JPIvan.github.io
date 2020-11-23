@@ -21,8 +21,7 @@
 title: JPIvan
 #email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  At the present moment this website is still under development.
-  I hope to host a personal blog and collected notes and teaching material here in future.
+  Collected notes, teaching material, and general musings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
