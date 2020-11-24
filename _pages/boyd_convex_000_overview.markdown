@@ -14,7 +14,4 @@ Likewise, this entire website is [open-source](https://github.com/JPIvan/JPIvan.
 
 Once again, these notes are intended as an aid to anyone working through Boyd's book. I doubt they will be even fractionally as instructive as a standalone reference. I hope you will find these resources useful.
 
-The links below will take you to a jupyter notebook made for each section, beneath this you will find some extra discussion of the contents of the notebooks.
-
-1. [Overview](/boyd-convex-optimisation) - You are here.
-2. [Chapter 1 - Introduction](https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch1.ipynb)
+See the sidebar for links to notebooks and discussions on various topics.
