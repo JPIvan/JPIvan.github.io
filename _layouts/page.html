@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="page">
+
+  <div style="display:block; width:100%;">
+    <div style="width:75%; float: left; display: inline-block;">
+      {{ content }}
+    </div>
+    <div style="width:25%; float: left; display: inline-block;">
+      {% include nav.html nav=site.data.menu %}
+    </div>
+  </div>
+</div>
