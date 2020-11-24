@@ -22,8 +22,8 @@ title: JPIvan
 #email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Collected notes, teaching material, and general musings.
-baseurl: "https://jpivan.github.io/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://myuser.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
 # twitter_username: jekyllrb
 github_username:  JPIvan
 
