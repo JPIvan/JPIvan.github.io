@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "" # Removes a dead link on github pages build
 ---
 
 # Notes on Convex Optimisation
