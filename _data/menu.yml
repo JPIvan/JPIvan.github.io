@@ -3,10 +3,11 @@
 - text: Convex Optimisation
   url: /boyd-convex-optimisation/
   subitems:
-    - text: Introduction - Notebook
-      url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch1.ipynb
-    - text: Introduction - Discussion
+    - text: Introduction
       url: /boyd-convex-optimisation/ch1/
+      subitems:
+        - text: "Notebook: Introduction and Least-Squares"
+          url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch1.ipynb
     - text: Unconstrained Minimisation
       url: /boyd-convex-optimisation/ch9/
       subitems:
