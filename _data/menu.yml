@@ -12,7 +12,7 @@
       url: /boyd-convex-optimisation/ch9/
       subitems:
         - text: "Notebook: Golden Section Search"
-          url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search.ipynb
+          url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search_golden_section.ipynb
 #       subitems:
 #         - text: First menu (sub-sub)
 #           url: /first-menu/first-menu-sub/first-menu-sub-sub/

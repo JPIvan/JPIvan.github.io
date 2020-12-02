@@ -8,7 +8,7 @@ permalink: /boyd-convex-optimisation/ch9/
 
 ## 9.2 Descent Methods
 
-The first step in implementing our own algorithm using some of the descent methods Boyd discusses is implementing a line search algorithm. Here we will discuss the idea behind the two line search methods implemented at time of writing. The [notebook](https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search.ipynb) associated with this discussion goes over the details of the implementations found in [line_search.py](https://github.com/JPIvan/optimisation/blob/main/src/line_search.py).
+The first step in implementing our own algorithm using some of the descent methods Boyd discusses is implementing a line search algorithm. Here we will discuss the idea behind the two line search methods implemented at time of writing. The [notebook](https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search_golden_section.ipynb) associated with this discussion goes over the details of the implementations found in [line_search.py](https://github.com/JPIvan/optimisation/blob/main/src/line_search.py).
 
 The idea of a line search is to minimise a function in a single direction. If function evaluations are expensive we may content ourselves with an approximation of the minimum. We implement one *exact* line search method, golden section search, and one *inexact* line search method, backtracking line search.
 
@@ -55,7 +55,7 @@ From the equality with $$a+c$$ we thus have $$x_3-x_1 = \varphi^{-1}(x_4-x_1)$$ 
 
 It is from the appearance of $$\varphi$$ as the requisite ratio of the subdivisions of the interval that the method of golden sections derives its name.
 
-With the derivation complete, how then to go about actually implementing this method? Let us describe the procedure somewhat loosely in pseudocode, and then switch over to the [notebook](https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search.ipynb) to look at an implementation in Python.  
+With the derivation complete, how then to go about actually implementing this method? Let us describe the procedure somewhat loosely in pseudocode, and then switch over to the [notebook](https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search_golden_section.ipynb) to look at an implementation in Python.  
 
 ```
 function goldensection:
