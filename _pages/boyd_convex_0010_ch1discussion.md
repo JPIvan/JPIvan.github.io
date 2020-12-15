@@ -31,15 +31,15 @@ where $$\alpha, \beta \in [0, 1]$$ and $$\alpha + \beta = 1$$. This definition i
 ## Section 1.2 - Least-Squares and Linear Programming
 ### Least Squares
 
-An unconstrained least squares problem is a problem with no contraints (surprise!) and objective function of the form
+An unconstrained least squares problem is a problem with no constraints (surprise!) and objective function of the form
 
 $$f_0(x) = \Vert Ax - b \Vert^2_2. \qquad (1.4)$$
 
 The notebook shows how we might construct a class to create and solve instances of the least-squares problem. This example is not terribly interesting from the perspective of implementing an optimiser - since we directly call the `numpy.lstsq` solver - but serves to show an example of how we might construct objects, functions, and interfaces using the theory from the book.
 
-Why not implement a least-squares solver? Surprisingly, even for this simple problem, an efficient and numerically stable solver is not straightforward to implement. Matrix inversion is not a numerically stable operation. I only learned this when my course project for the course that inspured this series of notes failed to converge and my lecturer pointed out during a consultation, somewhat horrified, that I was explicitly inverting a matrix in my solution and that this was likely the cause of the issues. A solution to least-squares, however simple, must at the very least address this problem: some invertible matrices will behave just fine if we use the analytical solution given by Boyd, $$x^* = (A^TA)^{-1}A^Tb$$. Others will not.
+Why not implement a least-squares solver? Surprisingly, even for this simple problem, an efficient and numerically stable solver is not straightforward to implement. Matrix inversion is not a numerically stable operation. I only learned this when my course project for the course that inspired this series of notes failed to converge and my lecturer pointed out during a consultation, somewhat horrified, that I was explicitly inverting a matrix in my solution and that this was likely the cause of the issues. A solution to least-squares, however simple, must at the very least address this problem: some invertible matrices will behave just fine if we use the analytical solution given by Boyd, $$x^* = (A^TA)^{-1}A^Tb$$. Others will not.
 
-If you’re interested in exactly how the least-squares problem in the example was solved efficiently and stably, you can give “_umath_linalg.lstsq_m” and “_umath_linalg.lstsq_n” a google and go for a deep-dive into the internals of numpy although you will probably be better served by searching for some information on the general principles involed. I will probably come back to this problem at some point and discuss implementing a least-squares solver but, for now, let us move on.
+If you’re interested in exactly how the least-squares problem in the example was solved efficiently and stably, you can give “_umath_linalg.lstsq_m” and “_umath_linalg.lstsq_n” a google and go for a deep-dive into the internals of numpy although you will probably be better served by searching for some information on the general principles involved. I will probably come back to this problem at some point and discuss implementing a least-squares solver but, for now, let us move on.
 
 The key point to this digression is this: there is some extra work required to bridge the gap between mathematical results and implementation. One of the biggest challenges for people that do not happen to be experts in numerical methods is that the pitfalls involved in this process are not always immediately obvious.
 
@@ -81,6 +81,6 @@ More details on this can be found in my notes on linear programming, where it is
 
 ### Sections 1.3 and 1.4: Convex Optimisation and Non-Linear Optimisation
 
-There is nothing in this section that I feel I can add significant value to, but as a key point for the rest of this series of notes and examples I want to repeat a point that Boyd makes which I believe captures the value of this area of study wonderfully: first, techniques for convex (and quasiconvex) optimisation cover a sufficiently large problem domain that a surprising number of problems can be formulated as convex optimisation problems, and second, the techniques used for convex optimisaition are general enough to be useful in non-convex problems.
+There is nothing in this section that I feel I can add significant value to, but as a key point for the rest of this series of notes and examples I want to repeat a point that Boyd makes which I believe captures the value of this area of study wonderfully: first, techniques for convex (and quasiconvex) optimisation cover a sufficiently large problem domain that a surprising number of problems can be formulated as convex optimisation problems, and second, the techniques used for convex optimisation are general enough to be useful in non-convex problems.
 
 I leave the details of this up to Boyd, he does a far better job in exposition than I could hope to do here. I encourage readers to not skip what he has written in the remainder of Chapter 1, since some of it really is quite relevant in a holistic sense.
