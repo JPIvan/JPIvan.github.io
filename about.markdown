@@ -6,14 +6,18 @@ permalink: /about/
 
 ### Who am I?
 
-My background and interests are rather mixed, and so coming up with a simple answer to this question had me stumped for quite some time. A good place to start might then be my qualifications and immediate goals.
+I am a Ph.D. student in computer science at Örebro University with quasistable interests in philisophy, StarCraft, linguistics, pedagogy, fantasy novels, and options trading.
 
-I hold a B.Eng. in mechanical engineering from the University of Pretoria, and an M.Sc. in engineering mathematics from Mälardalens Högskola. I'm currently applying for Ph.D. positions in engineering, mathematics, computer science, or didactics. The fact that I have been programming in a variety of languages since high-school has contributed greatly to my academic development and choices in my studies thusfar. My focus has always been on scientific computing, numerical methods, or computer mathematics in some form or another; with a good deal of my high-school programming featuring solving problems from [Project Euler](https://projecteuler.net/) in C++. Some of my attempts featured, unnecessary but fun, optimisations in SSE/SIMD and CUDA.
+My research is broadly in machine learning, and more specifically concerned with a type of model called a Gaussian process.
+Gaussian processes can be used for regression and classification, and are often described as providing a principled approach to probabilistic machine learning.
 
-Well, that seems like a relatively straightforward history. Barring the interest in didactics it wouldn't seem unreasonable to use any number of STEM-related buzzwords to summarise myself. That said, I don't want to label this as an engineer's website or a mathematical blog. I have a deep interest in linguistics, language learning, theory of cognition, pedagogy, fantasy writing, options trading, Starcraft 2, gardening, woodwork, and countless more. Some of these might fit the bill well for a typical STEM-related personal website... but others less so.
+Here 'principled' mostly means that we are interested in the assumptions we make, that we derive results in a rigorous manner, and that we care about *exactly* how our methods work.
+Gaussian processes are therefore interpretable, understandable, and transparent.
 
-### What is this website all about?
+### How did we get here?
 
-To be honest, I do not have extremely concrete goals at the moment. I want to use this website as a platform for academic notes on various topics that I find interesting, but have had ideas about using it for any and all of my above-mentioned interests.
+After my bachelors in mechanical engineering I was really interested in control and fluid dynamics and thought that solving novel problems in these areas would be a really interesting direction to move in.
+However, I feared that I didn't really have a strong enough mathematical background to study the sorts of problems I was interested in.
+Thus, I began a masters in applied mathematics - which I enjoyed so much that I revised my plan to 'any work that will let me carry on doing a lot of math'.
 
-As you may have seen, however, the first project I've decided to 'formally' launch is a series of notes and discussions on convex optimisation.
+And here we are.
