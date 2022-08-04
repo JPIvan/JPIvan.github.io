@@ -1,18 +1,18 @@
 - text: Home
   url: /
-- text: Convex Optimisation
-  url: /boyd-convex-optimisation/
-  subitems:
-    - text: Introduction
-      url: /boyd-convex-optimisation/ch1/
-      subitems:
-        - text: "Notebook: Introduction and Least-Squares"
-          url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch1.ipynb
-    - text: Unconstrained Minimisation
-      url: /boyd-convex-optimisation/ch9/
-      subitems:
-        - text: "Notebook: Golden Section Search"
-          url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search_golden_section.ipynb
+# - text: Convex Optimisation
+#   url: /boyd-convex-optimisation/
+#   subitems:
+#     - text: Introduction
+#       url: /boyd-convex-optimisation/ch1/
+#       subitems:
+#         - text: "Notebook: Introduction and Least-Squares"
+#           url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch1.ipynb
+#     - text: Unconstrained Minimisation
+#       url: /boyd-convex-optimisation/ch9/
+#       subitems:
+#         - text: "Notebook: Golden Section Search"
+#           url: https://nbviewer.jupyter.org/github/JPIvan/optimisation/blob/main/notebooks/boyd_ch9_line_search_golden_section.ipynb
 #       subitems:
 #         - text: First menu (sub-sub)
 #           url: /first-menu/first-menu-sub/first-menu-sub-sub/
